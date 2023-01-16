@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: cursive;
+  }
+  .bg-container{
+    background-image: url('../images/pic6.jpg');
+    height: 100vh;
+    width: 100vw;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+  }
+  .login-bg-container{
+    background-image: url('../images/back10new.jpg');
+    height: 100vh;
+    width: 100vw;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+  }
+  .container {
+    background-color: hsla(201, 100%, 6%, 0.5);
+    padding: 20px;
+    width: 35%;
+  }
+  .login-container {
+    background-color: hsla(201, 100%, 6%, 0.5);
+    padding: 30px;
+    width: 25%;
+    height: 400px;
+  }
+  .title {
+    color: #fff;
+    text-align: center;
+    margin: 0;
+    margin-bottom: 30px;
+    font-size: 2.5em;
+    font-weight: bolder;
+  }
+  .input-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px; 
+  }
+  .input-group label {
+    color: #fff;
+    margin-bottom: 7px;
+  }
+  
+  .input-group input {
+    font-size: 1.5em;
+    padding: 0.1em 0.25em;
+    background-color: hsla(201, 100%, 91%, 0.3);
+    border: 1px solid hsl(201, 100%, 6%);
+    outline: none;
+    border-radius: 5px;
+    color: #fff;
+  }
+  
+  .input-group input:focus {
+    border: 1px solid hsl(201, 100%, 50%);
+  }
+  
+  .button {
+    padding: 10px 30px;
+    width: 100%;
+    border-radius: 5px;
+    background: hsla(201, 100%, 50%, 0.1);
+    border: 1px solid white;
+    outline: none;
+    font-size: 1.5em;
+    color: #fff;
+    font-weight: bolder;
+   
+    cursor: pointer;
+  }
+  
+  .button:hover {
+    background-color: hsla(201, 100%, 50%, 0.3);
+  }
+  
+  .button:focus {
+    background-color: hsla(201, 100%, 50%, 0.5);
+  }
+  
